@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif+SC);@charset "UTF-8";
 
 html,
 body,
@@ -11,7 +11,7 @@ h4,
 h5,
 h6,
 p {
-  color: #333333;
+  color: #545454;
 }
 
 body .wrapper {
@@ -19,28 +19,37 @@ body .wrapper {
 }
 
 body h1 {
+  font-family: "Noto Serif SC", serif !important;
   text-align: center;
-}
-
-body h1 span {
   font-family: "Hiragino Kaku Gothic ProN", "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "\30E1\30A4\30EA\30AA", Meiryo, "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif;
   font-weight: bolder;
 }
 
 body h2 {
-  margin-top: 20px;
-  padding: 0.25em 0.5em;
-  /*上下 左右の余白*/
-  color: #494949;
-  /*文字色*/
-  background: transparent;
-  /*背景透明に*/
-  border-left: solid 5px #7db4e6;
-  /*左線*/
+  padding: 10px 20px;
+  margin: 40px auto 20px 0;
+  border-right: solid 20px #ffb66d;
+  border-top: solid 2px #ffb66d;
+  border-left: solid 20px #ffb66d;
+  border-bottom: solid 2px #ffb66d;
+  background: #eeeeee;
+}
+
+body h3 {
+  padding: 10px 20px;
+  margin: 40px auto 20px 0;
+  border-left: solid 20px #e3342f;
+  border-bottom: solid 2px #e3342f;
+}
+
+body h4 {
+  margin: 40px auto 20px 0;
+  color: #545454;
+  font-weight: bold;
 }
 
 .lg-section {
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
 }
 
 .login-name {
@@ -89,5 +98,38 @@ footer .external-light {
 
 .main-title h1 {
   font-weight: bold;
+}
+
+.lg-section-main-image {
+  text-align: center;
+}
+
+.lg-section-main-image img {
+  width: 60%;
+}
+
+.tech-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 380px 380px 380px;
+  grid-template-rows: auto auto;
+}
+
+@media only screen and (max-width:896px) and (min-width:481px) {
+  .tech-grid {
+    grid-template-columns: 380px 380px;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .tech-grid {
+    grid-template-columns: 380px;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+.tech-grid .tech-card {
+  margin: 0 10px 20px;
 }
 

@@ -8,10 +8,42 @@
 @import "component/header";
 @import "component/footer";
 
+
+// トップページ
 .main-title {
     margin: $vertical-lg-space auto;
 
     h1 {
         font-weight: bold;
+    }
+}
+
+// BuppanFlow紹介
+.lg-section-main-image {
+    text-align: center;
+
+    img {
+        width: 60%;
+    }
+}
+
+.tech-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 380px 380px 380px;
+    grid-template-rows: auto auto;
+
+    @include media(tbl) {
+        grid-template-columns: 380px 380px;
+        grid-template-rows: auto auto auto;
+    }
+
+    @include media(sp) {
+        grid-template-columns: 380px;
+        grid-template-rows: auto auto auto;
+    }
+
+    .tech-card {
+        margin: 0 $vertical-sm-space/2 $vertical-sm-space;
     }
 }
