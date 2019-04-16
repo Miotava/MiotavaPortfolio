@@ -1,0 +1,64 @@
+// Variables
+@import "variables";
+@import "mixin";
+
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: $font-color-normal;
+}
+
+// html {
+//     font-size: 62.5%; // 1remを10pxに変更
+// }
+
+// body {
+//     font-size: 1.4rem;
+
+//     @include media(tbl) {
+//         font-size: 1.3rem;
+//     }
+
+//     @include media(sp) {
+//         font-size: 1.2rem;
+//     }
+
+// }
+
+
+body {
+    .wrapper {
+        overflow: hidden;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h1 span {
+        font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
+            sans-serif;
+        font-weight: bolder;
+    }
+
+    h2 {
+        margin-top: 20px;
+        padding: 0.25em 0.5em;
+        /*上下 左右の余白*/
+        color: #494949;
+        /*文字色*/
+        background: transparent;
+        /*背景透明に*/
+        border-left: solid 5px #7db4e6;
+        /*左線*/
+    }
+}

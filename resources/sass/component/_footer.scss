@@ -1,0 +1,29 @@
+// Variables
+@import "../variables";
+
+
+// footer
+footer {
+    background-color: #34495e;
+    color: #fff;
+
+    li {
+        margin-left: 20px;
+
+        .nav-item {
+            margin-left: 20px;
+        }
+
+        .nav-item-footer-nolink {
+            color: $footer-text-color-normal;
+        }
+    }
+
+    a.footer-link {
+        color: gray;
+    }
+
+    .external-light {
+        color: #f39c12;
+    }
+}

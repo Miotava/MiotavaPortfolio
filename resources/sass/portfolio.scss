@@ -1,0 +1,9 @@
+// @import "reset";
+@import "variables";
+@import "mixin";
+
+@import "overall";
+
+// コンポーネント
+@import "component/header";
+@import "component/footer";

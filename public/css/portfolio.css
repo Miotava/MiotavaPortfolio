@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #333333;
+}
+
+body .wrapper {
+  overflow: hidden;
+}
+
+body h1 {
+  text-align: center;
+}
+
+body h1 span {
+  font-family: "Hiragino Kaku Gothic ProN", "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", "\30E1\30A4\30EA\30AA", Meiryo, "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "MS PGothic", sans-serif;
+  font-weight: bolder;
+}
+
+body h2 {
+  margin-top: 20px;
+  padding: 0.25em 0.5em;
+  /*上下 左右の余白*/
+  color: #494949;
+  /*文字色*/
+  background: transparent;
+  /*背景透明に*/
+  border-left: solid 5px #7db4e6;
+  /*左線*/
+}
+
+.login-name {
+  color: #7f8c8d;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.list-icon {
+  display: inline-block;
+  width: 2rem;
+  padding: 0 2rem 0 0.5rem;
+  margin-right: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+}
+
+footer li {
+  margin-left: 20px;
+}
+
+footer li .nav-item {
+  margin-left: 20px;
+}
+
+footer li .nav-item-footer-nolink {
+  color: #7c7c7c;
+}
+
+footer a.footer-link {
+  color: gray;
+}
+
+footer .external-light {
+  color: #f39c12;
+}
+
