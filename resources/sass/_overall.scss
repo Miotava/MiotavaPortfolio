@@ -2,6 +2,8 @@
 @import "variables";
 @import "mixin";
 
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
 
 html,
 body,
@@ -17,23 +19,6 @@ p {
     color: $font-color-normal;
 }
 
-// html {
-//     font-size: 62.5%; // 1remを10pxに変更
-// }
-
-// body {
-//     font-size: 1.4rem;
-
-//     @include media(tbl) {
-//         font-size: 1.3rem;
-//     }
-
-//     @include media(sp) {
-//         font-size: 1.2rem;
-//     }
-
-// }
-
 
 body {
     .wrapper {
@@ -41,28 +26,37 @@ body {
     }
 
     h1 {
+        font-family: 'Noto Serif SC', serif !important;
         text-align: center;
-    }
-
-    h1 span {
         font-family: "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
             sans-serif;
         font-weight: bolder;
     }
 
     h2 {
-        margin-top: 20px;
-        padding: 0.25em 0.5em;
-        /*上下 左右の余白*/
-        color: #494949;
-        /*文字色*/
-        background: transparent;
-        /*背景透明に*/
-        border-left: solid 5px #7db4e6;
-        /*左線*/
+        padding: $vertical-sm-space/2 $vertical-sm-space;
+        margin: $vertical-md-space auto $vertical-sm-space 0;
+        border-right: solid 20px $orange;
+        border-top: solid 2px $orange;
+        border-left: solid 20px $orange;
+        border-bottom: solid 2px $orange;
+        background: $superlightgray;
+    }
+
+    h3 {
+        padding: $vertical-sm-space/2 $vertical-sm-space;
+        margin: $vertical-md-space auto $vertical-sm-space 0;
+        border-left: solid 20px $red;
+        border-bottom: solid 2px $red;
+    }
+
+    h4 {
+        margin: $vertical-md-space auto $vertical-sm-space 0;
+        color: $font-color-normal;
+        font-weight: bold;
     }
 }
 
 .lg-section {
-    margin-bottom: $vertical-lg-space;
+    margin: 0 auto $vertical-lg-space;
 }

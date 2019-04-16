@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/works/buppanflow', function () {
+    return view('works.buppanflow');
+})->name('aboutBuppanFlow');
