@@ -39,6 +39,10 @@ body h2 {
   /*左線*/
 }
 
+.lg-section {
+  margin-bottom: 80px;
+}
+
 .login-name {
   color: #7f8c8d;
   display: block;
@@ -77,5 +81,13 @@ footer a.footer-link {
 
 footer .external-light {
   color: #f39c12;
+}
+
+.main-title {
+  margin: 80px auto;
+}
+
+.main-title h1 {
+  font-weight: bold;
 }
 

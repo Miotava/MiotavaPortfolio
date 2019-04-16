@@ -7,3 +7,11 @@
 // コンポーネント
 @import "component/header";
 @import "component/footer";
+
+.main-title {
+    margin: $vertical-lg-space auto;
+
+    h1 {
+        font-weight: bold;
+    }
+}
