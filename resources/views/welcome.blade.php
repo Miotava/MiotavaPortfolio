@@ -52,6 +52,26 @@
         </div>
     </div>
     <div class="card bg-secondary job-card">
+        <div class="card-header">2017年4月〜2017年8月</div>
+        <div class="card-body">
+            <h4 class="card-title">東京大学 工学系研究科 技術経営戦略学専攻 グローバル消費インテリジェンス寄附講座 第1期生修了</h4>
+            <p class="card-text">
+                データサイエンスで有名な松尾研究室の方々が主催しているデータ分析に関する基礎講座を修了しました。（約4ヶ月間）<br>
+                講座では以下を学びました（リンクの本にて講座内容がほぼ同じものが出版されているとのことです）。<br>
+                当時仕事でデータサイエンティストの方々とお付き合いすることが多かったため前提知識として役に立ちましたし、
+                後にAPIやネット上から取得した物販に関する情報をローカルで分析する際にも役に立ち、とても有益な講座でした。
+                <ul>
+                    <li>確率・統計など大学初等程度の数学基礎おさらい</li>
+                    <li>Pythonおよび科学計算/データ加工/可視化に関する各ライブラリ（Numpy/Scipy/Pandas/Matplotlib）の利用習得</li>
+                    <li>機械学習の基礎</li>
+                    <li>モデルの検証・チューニング方法</li>
+                </ul>
+            </p>
+            <a href="https://www.amazon.co.jp/%E6%9D%B1%E4%BA%AC%E5%A4%A7%E5%AD%A6%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B5%E3%82%A4%E3%82%A8%E3%83%B3%E3%83%86%E3%82%A3%E3%82%B9%E3%83%88%E8%82%B2%E6%88%90%E8%AC%9B%E5%BA%A7-Python%E3%81%A7%E6%89%8B%E3%82%92%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E5%AD%A6%E3%81%B6%E3%83%87%E2%80%95%E3%82%BF%E5%88%86%E6%9E%90-%E5%A1%9A%E6%9C%AC%E9%82%A6%E5%B0%8A/dp/4839965250"
+                class="card-link" target="_blank">東京大学のデータサイエンティスト育成講座 ~Pythonで手を動かして学ぶデ―タ分析~</a>
+        </div>
+    </div>
+    <div class="card bg-secondary job-card">
         <div class="card-header">2018年4月〜現在</div>
         <div class="card-body">
             <h4 class="card-title">個人事業</h4>
