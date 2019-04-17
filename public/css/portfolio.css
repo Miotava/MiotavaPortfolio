@@ -27,7 +27,7 @@ body h1 {
 
 body h2 {
   padding: 10px 20px;
-  margin: 40px auto 20px 0;
+  margin: 80px auto 40px 0;
   border-right: solid 20px #ffb66d;
   border-top: solid 2px #ffb66d;
   border-left: solid 20px #ffb66d;
@@ -37,13 +37,13 @@ body h2 {
 
 body h3 {
   padding: 10px 20px;
-  margin: 40px auto 20px 0;
+  margin: 40px auto;
   border-left: solid 20px #e3342f;
   border-bottom: solid 2px #e3342f;
 }
 
 body h4 {
-  margin: 40px auto 20px 0;
+  margin-bottom: 20px;
   color: #545454;
   font-weight: bold;
 }
@@ -98,6 +98,54 @@ footer .external-light {
 
 .main-title h1 {
   font-weight: bold;
+}
+
+.job-card {
+  margin-bottom: 40px;
+}
+
+.job-card .card-subtitle {
+  font-weight: bold;
+}
+
+.job-card .card-desc {
+  margin-bottom: 20px;
+}
+
+.card-img {
+  width: 60%;
+}
+
+.myskillitems {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 15px;
+  grid-column-gap: 1px;
+  margin: 10px auto 55px;
+}
+
+.myskillitem {
+  display: grid;
+  grid-template-rows: 50px;
+  grid-template-columns: 50px 250px;
+  margin: 0 auto;
+}
+
+.skillicon {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.skillname {
+  font-family: "Bree Serif", serif;
+  width: 250px;
+  height: 50px;
+  font-size: 1.4rem;
+  padding-left: 20px;
+  margin: 5px auto;
 }
 
 .lg-section-main-image {

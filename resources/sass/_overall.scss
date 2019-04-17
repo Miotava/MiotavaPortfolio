@@ -35,7 +35,7 @@ body {
 
     h2 {
         padding: $vertical-sm-space/2 $vertical-sm-space;
-        margin: $vertical-md-space auto $vertical-sm-space 0;
+        margin: $vertical-lg-space auto $vertical-md-space 0;
         border-right: solid 20px $orange;
         border-top: solid 2px $orange;
         border-left: solid 20px $orange;
@@ -45,13 +45,13 @@ body {
 
     h3 {
         padding: $vertical-sm-space/2 $vertical-sm-space;
-        margin: $vertical-md-space auto $vertical-sm-space 0;
+        margin: $vertical-md-space auto;
         border-left: solid 20px $red;
         border-bottom: solid 2px $red;
     }
 
     h4 {
-        margin: $vertical-md-space auto $vertical-sm-space 0;
+        margin-bottom: $vertical-sm-space;
         color: $font-color-normal;
         font-weight: bold;
     }

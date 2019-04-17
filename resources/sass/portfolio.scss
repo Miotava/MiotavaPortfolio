@@ -8,8 +8,9 @@
 @import "component/header";
 @import "component/footer";
 
-
+// 
 // トップページ
+// 
 .main-title {
     margin: $vertical-lg-space auto;
 
@@ -18,7 +19,57 @@
     }
 }
 
+.job-card {
+    margin-bottom: $vertical-md-space;
+
+    .card-subtitle {
+        font-weight: bold;
+    }
+
+    .card-desc {
+        margin-bottom: $vertical-sm-space;
+    }
+}
+
+.card-img {
+    width: 60%;
+}
+
+.myskillitems {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-row-gap: 15px;
+    grid-column-gap: 1px;
+    margin: 10px auto 55px;
+}
+
+.myskillitem {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 50px 250px;
+    margin: 0 auto;
+}
+
+.skillicon {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.skillname {
+    font-family: 'Bree Serif', serif;
+    width: 250px;
+    height: 50px;
+    font-size: 1.4rem;
+    padding-left: 20px;
+    margin: 5px auto;
+}
+
+
+// 
 // BuppanFlow紹介
+// 
 .lg-section-main-image {
     text-align: center;
 
