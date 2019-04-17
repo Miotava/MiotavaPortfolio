@@ -1,10 +1,8 @@
-@extends('layouts.defaultLayout')
-
-@section('title','Welcome! | Miotava\'s Portfolio')
-
+@extends('layouts.defaultLayout') 
+@section('title','Welcome! | Miotava\'s Portfolio') 
 @section('content')
 <div class="main-title">
-    <h1>Welcome to Miotava's Portforio Site!!</h1>
+    <h1>Welcome to Miotava's Portfolio Website!!</h1>
 </div>
 
 <h2>経歴</h2>
@@ -22,8 +20,7 @@
         <div class="card-body">
             <h4 class="card-title">東京工業大学大学院通信情報工学専攻卒業</h4>
             <p class="card-text">
-                修士でも符号理論の研究を行い、学部時代からの研究を発展させテキサス大学研究者と共同執筆した論文が査読付きの国際学会へアクセプトされました。（当時会場であったトルコでの暴動騒動があったため発表は見送りました）。<br>
-                また、修士論文では産業総合研究所の研究者と共同で定理証明支援システムCoqによる符号理論の定式化を行いました。
+                修士でも符号理論の研究を行い、学部時代からの研究を発展させテキサス大学研究者と共同執筆した論文が査読付きの国際学会へアクセプトされました。（当時会場であったトルコでの暴動騒動があったため発表は見送りました）。<br>                また、修士論文では産業総合研究所の研究者と共同で定理証明支援システムCoqによる符号理論の定式化を行いました。
             </p>
             <a href="https://ieeexplore.ieee.org/document/6620663" class="card-link" target="_blank">国際学会論文</a>
         </div>
@@ -42,13 +39,12 @@
                 <div class="card-desc">
                     ほぼサブとしての立ち位置でしたが、後述するデータ分析企業との協業案件で使用していく基盤としてエンドユーザにパブリッククラウドを紹介するフローなどを策定しました。
                 </div>
-                <h6 class="card-subtitle">データ分析企業との協業</h6>
+                <h6 class="card-subtitle">データ分析企業との協業事業立ち上げ</h6>
                 <div class="card-desc">
-                    データサイエンティストを多く抱え他社のデータ分析課題を解決できる企業を選定のうえ、フローや役割分担などを調整し協業するに至るまで中心的な役割を果たしました。
+                    データサイエンティストを多く抱え他社のデータ分析課題を解決できる企業を選定のうえ、フローや役割分担などを調整し契約・協業するに至るまで中心的な役割を果たしました。
                 </div>
             </p>
-            <a href="http://news.kddi.com/kddi/corporate/newsrelease/2017/06/12/2495.html" class="card-link"
-                target="_blank">参考：「Google Cloud Platform (TM)」の提供開始について</a>
+            <a href="http://news.kddi.com/kddi/corporate/newsrelease/2017/06/12/2495.html" class="card-link" target="_blank">参考：「Google Cloud Platform (TM)」の提供開始について</a>
         </div>
     </div>
     <div class="card bg-secondary job-card">
@@ -56,10 +52,8 @@
         <div class="card-body">
             <h4 class="card-title">東京大学 工学系研究科 技術経営戦略学専攻 グローバル消費インテリジェンス寄附講座 第1期生修了</h4>
             <p class="card-text">
-                データサイエンスで有名な松尾研究室の方々が主催しているデータ分析に関する基礎講座を修了しました。（約4ヶ月間）<br>
-                講座では以下を学びました（リンクの本にて講座内容がほぼ同じものが出版されているとのことです）。<br>
-                当時仕事でデータサイエンティストの方々とお付き合いすることが多かったため前提知識として役に立ちましたし、
-                後にAPIやネット上から取得した物販に関する情報をローカルで分析する際にも役に立ち、とても有益な講座でした。
+                データサイエンスで有名な松尾研究室の方々が主催しているデータ分析に関する基礎講座を修了しました。（約4ヶ月間）<br> 講座では以下を学びました（リンクの本にて講座内容がほぼ同じものが出版されているとのことです）。
+                <br> 当時仕事でデータサイエンティストの方々とお付き合いすることが多かったため前提知識として役に立ちましたし、 後にAPIやネット上から取得した物販に関する情報をローカルで分析する際にも役に立ち、とても有益な講座でした。
                 <ul>
                     <li>確率・統計など大学初等程度の数学基礎おさらい</li>
                     <li>Pythonおよび科学計算/データ加工/可視化に関する各ライブラリ（Numpy/Scipy/Pandas/Matplotlib）の利用習得</li>
@@ -79,14 +73,12 @@
                 個人事業として主に輸入物販事業をしています。またそれに関連して、スクリプトを用いた各種ECサイトからの情報収集や、輸入物販を効率化させるWebアプリケーションなどを作成しています。
                 <h6 class="card-subtitle">輸入物販事業</h6>
                 <div class="card-desc">
-                    海外のショップから日本で売れる商品を基本無在庫で出品し、注文が入れば仕入れる無在庫輸入物販をしています。<br>
-                    本事業はリサーチや出品にかかる作業や外注化を進める上での管理作業が煩雑になっていました。
+                    海外のショップから日本で売れる商品を基本無在庫で出品し、注文が入れば仕入れる無在庫輸入物販をしています。<br> 本事業はリサーチや出品にかかる作業や外注化を進める上での管理作業が煩雑になっていました。
                 </div>
                 <h6 class="card-subtitle">アプリケーション開発</h6>
                 <div class="card-desc">
-                    前述の無在庫輸入物販での課題を解決するアプリケーション「BuppanFlow」を作成しました。
-                    現在、外部公開は限定的にしておりますので、対面でよろしければご説明させていただくことが可能です。<br>
-                    LPも簡単かつ現在進行形で作成しておりますので、下記リンクからご覧ください。
+                    前述の無在庫輸入物販での課題を解決するアプリケーション「BuppanFlow」を作成しました。 現在、外部公開は限定的にしておりますので、対面でよろしければご説明させていただくことが可能です。
+                    <br> LPも簡単かつ現在進行形で作成しておりますので、下記リンクからご覧ください。
                 </div>
             </p>
             <a href="https://buppanflow.com" class="card-link" target="_blank">BuppanFlow</a>
@@ -249,9 +241,9 @@
 <div class="lg-section">
     <h3>物販情報管理アプリ「BuppanFlow」</h3>
     <div class="md-section">
-        BuppanFlowは主に輸入物販を行う個人〜中小事業者向けの管理・情報アプリです。
-        詳細は以下リンクよりご覧ください。<br>
-        <a href={{ route('aboutBuppanFlow') }} target="_blank">BuppanFlowの詳細</a>
+        BuppanFlowは主に輸入物販を行う個人〜中小事業者向けの管理・情報アプリです。 詳細は以下リンクよりご覧ください。
+        <br>
+        <a href={{ route( 'aboutBuppanFlow') }} target="_blank">BuppanFlowの詳細</a>
     </div>
 </div>
 
@@ -259,8 +251,7 @@
 <div class="lg-section">
     <h3>キャリアについて</h3>
     <div class="md-section">
-        今後は個人で仕事をしていくよりも、チームで協力し愛情を持ってプロダクトを育てたいと思っています。
-        自社開発で面白いプロダクトを作られているところで自分が協力できたら本望ですので、もし私に興味を持っていただけましたら是非お声がけいただければと思います。
+        今後は個人で仕事をしていくよりも、チームで協力し愛情を持ってプロダクトを育てたいと思っています。 自社開発で面白いプロダクトを作られているところで自分が協力できたら本望ですので、もし私に興味を持っていただけましたら是非お声がけいただければと思います。
     </div>
     <h3>技術について</h3>
     <div class="md-section">
@@ -272,8 +263,7 @@
 <div class="lg-section">
     <a href="https://github.com/Miotava" class="card-link" target="_blank">GitHubアカウント</a>
 </div>
-
 @endsection
-
+ 
 @section('customcss')
 @endsection
