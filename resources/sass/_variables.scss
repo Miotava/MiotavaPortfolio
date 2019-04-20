@@ -2,8 +2,7 @@
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: "Nunito",
-sans-serif;
+$font-family-sans-serif: "Nunito", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 $font-color-normal: #545454;
@@ -14,7 +13,7 @@ $blue: #3490dc;
 $indigo: #6574cd;
 $purple: #9561e2;
 $pink: #f1b6ca;
-$red: #e3342f;
+$red: #d9230f;
 $orange: #ffb66d;
 $yellow: #ffed4a;
 $green: #38c172;
@@ -22,14 +21,15 @@ $teal: #4dc0b5;
 $cyan: #6cb2eb;
 
 $lightgray: #c7c7c7;
-$lightblue:rgba(159, 226, 250, 0.5);
+$lightblue: rgba(159, 226, 250, 0.5);
 $superlightgray: #eeeeee;
 
-$breakpoints: (sp: "only screen and (max-width:480px)",
-tbl: "only screen and (max-width:896px) and (min-width:481px)"
+$breakpoints: (
+    sp: "only screen and (max-width:480px)",
+    tbl: "only screen and (max-width:896px) and (min-width:481px)"
 );
 
 // Space
-$vertical-lg-space:80px;
-$vertical-md-space:40px;
-$vertical-sm-space:20px;
+$vertical-lg-space: 80px;
+$vertical-md-space: 40px;
+$vertical-sm-space: 20px;
