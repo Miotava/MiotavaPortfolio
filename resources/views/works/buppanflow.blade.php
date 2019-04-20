@@ -71,7 +71,7 @@
             <div class="card-header">さくらレンタルサーバ</div>
             <div class="card-body">
                 <p class="card-text">
-                    Laravelが動作するプロダクション用Webサーバ（nginx）です。CI/DIなどは出来ておらず、sshでログインし、手動でGitからpullすることでデプロイしています。
+                    Laravelが動作するプロダクション用Webサーバ（nginx）です。CI/CDなどは出来ておらず、sshでログインし、手動でGitからpullすることでデプロイしています。
                 </p>
             </div>
         </div>
