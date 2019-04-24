@@ -86,8 +86,15 @@
                     <br> LPや簡単な技術的な説明もご用意しておりますので、下記リンクよりご覧ください。
                 </div>
             </p>
-            <a href="https://buppanflow.com" class="card-link" target="_blank">BuppanFlow（LPトップ）</a>
-            <a href={{ route( 'aboutBuppanFlow') }} target="_blank">作品紹介「BuppanFlow」</a>
+            <div class="link-section">
+                <a href="{{ route( 'aboutBuppanFlow') }}" target="_blank">
+                    BuppanFlowの概要・技術などのご紹介
+                </a>
+                <br>
+                <a href="https://buppanflow.com" target="_blank">
+                    BuppanFlowのトップページ（LP）
+                </a>
+            </div>
         </div>
     </div>
 </div>
@@ -243,13 +250,20 @@
     </div>
 </div>
 
-<h2>作品</h2>
+<h2>開発したアプリケーション</h2>
 <div class="lg-section">
     <h3>物販情報管理アプリ「BuppanFlow」</h3>
     <div class="md-section">
         BuppanFlowは主に輸入物販を行う個人〜中小事業者向けの管理・情報アプリです。 詳細は以下リンクよりご覧ください。
-        <br>
-        <a href={{ route( 'aboutBuppanFlow') }} target="_blank">作品紹介「BuppanFlow」</a>
+        <div class="link-section">
+            <a href="{{ route( 'aboutBuppanFlow') }}" target="_blank">
+                BuppanFlowの概要・技術など
+            </a>
+            <br>
+            <a href="https://buppanflow.com" target="_blank">
+                BuppanFlowのトップページ（LP）
+            </a>
+        </div>
     </div>
 </div>
 
@@ -257,7 +271,7 @@
 <div class="lg-section">
     <h3>キャリアについて</h3>
     <div class="md-section">
-        今後は個人で仕事をしていくよりも、チームで協力し愛情を持ってプロダクトを育てたいと思っています。
+        今後は個人で仕事をしていくよりも、チームで協力し愛情を持ってプロダクトを育てたいと思っています。<br>
         自社開発で面白いプロダクトを作られているところで自分が協力できたら本望ですので、もし私に興味を持っていただけましたら是非お声がけいただければと思います。
     </div>
     <h3>技術について</h3>
