@@ -1,7 +1,5 @@
-@extends('layouts.defaultLayout')
-
-@section('title','BuppanFlowについて | Miotava\'s Portfolio')
-
+@extends('layouts.defaultLayout') 
+@section('title','BuppanFlowについて | Miotava\'s Portfolio') 
 @section('content')
 <div class="main-title">
     <h1>作品紹介「BuppanFlow」</h1>
@@ -9,24 +7,30 @@
 
 <h2>概要</h2>
 <div class="lg-section">
-    <p>BuppanFlowはもともと自分が行なっていた無在庫輸入物販をより効率的にするために開発したアプリです。</p>
-    <p>CtoC系（Small BtoC含む）ECサイトの台頭や政府の副業推進政策による副業物販の浸透により、小規模かつチームを組んで行われる物販ビジネスのプレーヤー数の増加が見込まれます。<br>
-        その結果、小規模な物販プレーヤーを支えるこのようなアプリが今後求められると予想しており、一定数の需要が見込めると思っています。</p>
-    <p>なお、現在本アプリはアルファ版として自分や外注先、知り合いにのみ解放しています。</p>
-    <p>作成したアプリのLPは以下のリンクよりご確認ください。</p>
+    <p>
+        BuppanFlowはもともと自分が行なっていた無在庫輸入物販をより効率的にするために開発したアプリです。
+    </p>
+    <p>
+        <a href="#app-func">機能は後述します</a>がアプリでは、無在庫輸入物販に必要な、商品リサーチ、出品、受注発送管理、利益管理やそれらの外注にかかる情報管理作業をアプリ上でワンストップで行える点が魅力となっています。</p>
+    <p>
+        なお、現在本アプリはアルファ版として自分や外注先、知り合いにのみ解放していますが、作成したアプリのLPは以下のリンクよりご確認ください。
+    </p>
     <div class="link-section">
         <a href="https://buppanflow.com" target="_blank">
             BuppanFlowのトップページ（LP）
         </a>
     </div>
+    <p>
+        CtoC系（Small BtoC含む）ECサイトの台頭や政府の副業推進政策による副業物販の浸透により、小規模かつチームを組んで行われる物販ビジネスのプレーヤー数の増加が見込まれます。<br> その結果、小規模な物販プレーヤーを支えるこのようなアプリが今後求められると予想しており、一定数の需要が見込めると思っています。
+    </p>
 </div>
 
-<h2>機能</h2>
+<h2 id="app-func">機能</h2>
 <div class="lg-section">
     <ul>
         <li>海外ブランドやショップなどの情報管理・検索</li>
         <li>ECショップでの売れ筋商品リサーチ</li>
-        <li>リサーチ・出品・発送の作業担当者および彼らを束ねる管理者のための情報シェア・管理機能</li>
+        <li>リサーチ・出品・受注発送の作業担当者および彼らを束ねる管理者のための情報シェア・管理機能</li>
         <li>作業進捗が確認できる管理者ダッシュボード</li>
         <li>簡易的な利益管理機能</li>
     </ul>
@@ -93,8 +97,8 @@
         <div class="card bg-secondary tech-card">
             <div class="card-header">Python</div>
             <div class="card-body">
-                <p class="card-text">Compute Engine上のデフォルトで動作するPython2を使用しています。ローカルでのクローリングデータ解析ではJupyter
-                    NotebookでPython3を使用することもあります。</p>
+                <p class="card-text">Compute Engine上のデフォルトで動作するPython2を使用しています。ローカルでのクローリングデータ解析ではJupyter NotebookでPython3を使用することもあります。
+                </p>
             </div>
         </div>
         <div class="card bg-secondary tech-card">
@@ -153,8 +157,7 @@
         </div>
     </div>
 </div>
-
 @endsection
-
+ 
 @section('customcss')
 @endsection
