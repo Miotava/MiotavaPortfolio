@@ -13,7 +13,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-123562526-4');
-
     </script>
 
     <meta charset="utf-8">
@@ -23,8 +22,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico">
     <meta name="robots" content="all,follow">
-    @include('components.maincss')
-    @yield('customcss')
+    @include('components.maincss') @yield('customcss')
     <!-- Tweaks for older IEs-->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -33,13 +31,9 @@
 
 <body>
     <div class="wrapper">
-        @include('components.header')
-        <div class="container">
-            @yield('content')
-        </div>
-        @include('components.footer')
-        @include('components.mainjs')
-        @yield('customjs')
+    @include('components.header') @yield('content')
+    @include('components.footer')
+    @include('components.mainjs') @yield('customjs')
     </div>
 </body>
 

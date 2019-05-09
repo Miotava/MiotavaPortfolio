@@ -11,6 +11,70 @@
 // 
 // トップページ
 // 
+
+
+/* ============================================================
+  top view
+===============================================================*/
+#topview {
+    background: url(../images/hero-img_1920.jpg) no-repeat center top fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+#toplogo {
+    img {
+        width: 400px;
+        height: auto;
+    }
+
+    padding-top: 18vh;
+    flex: 1;
+    bottom: 0;
+}
+
+#subtitle {
+    font-family: "Kokoro";
+    font-size: 2rem;
+    text-shadow: 0 0 7px gray;
+    color: white;
+    flex: 4;
+}
+
+@include media(sp) {
+    #topview {
+        height: 30vh;
+    }
+
+    #toplogo {
+        padding-top: 5vh;
+
+        img {
+            width: 280px;
+            height: auto;
+        }
+    }
+
+    #subtitle {
+        font-size: 1.2rem;
+    }
+}
+
+#down {
+    min-width: 100px;
+    max-width: 200px;
+    flex: 1;
+}
+
+
+
+
+
+
 .main-title {
     margin: $vertical-lg-space auto;
 
@@ -59,6 +123,7 @@
 
 .skillname {
     font-family: 'Bree Serif', serif;
+    line-height: 1.8rem;
     width: 250px;
     height: 50px;
     font-size: 1.4rem;
